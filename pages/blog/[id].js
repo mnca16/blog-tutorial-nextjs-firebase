@@ -45,6 +45,7 @@ const Blog = (props) => {
 }
 
 Blog.getInitalProps = ({ query }) => {
+  //This is client side rendering? .getInitialProps
   console.log(query.id)
   return {
     id: query.id,
