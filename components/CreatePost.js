@@ -1,3 +1,4 @@
+//This component is meant to Write to Cloud Firestore (to the data base)
 import React, { useState } from "react"
 import { fire, fire2 } from "../config/fire-config.js"
 import "firebase/firestore"
@@ -7,26 +8,6 @@ const CreatePost = () => {
   const [content, setContent] = useState("")
   const [notification, setNotification] = useState("")
 
-  //   const handleSumbit = (e) => {
-  //     e.preventDefault()
-
-  //     fire.firestore().collection("blog").add({
-  //       title: title,
-  //       content: content,
-  //     })
-
-  //     setTitle("")
-  //     setContent("")
-
-  //     setNotification("Blogpost created")
-
-  //     setTimeout(() => {
-  //       setNotification("")
-  //     }, 2000)
-  //   }
-
-  console.log(fire2)
-
   const handleSubmit = (event) => {
     event.preventDefault()
 
@@ -35,10 +16,11 @@ const CreatePost = () => {
       content: content,
     })
 
-    console.log({
-      title: title,
-      content: content,
-    })
+    //Show both states in the console
+    // console.log({
+    //   title: title,
+    //   content: content,
+    // })
 
     setTitle("")
     setContent("")
