@@ -1,5 +1,3 @@
-
-import { fire } from "../../config/fire-config.js"
 import fire from "../../config/fire-config.js"
 import { useState, useEffect } from "react"
 import Link from "next/link"
