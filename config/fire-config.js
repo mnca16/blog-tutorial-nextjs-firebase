@@ -24,7 +24,7 @@ try {
 const fire = firebase
 const fire2 = firebaseConfig
 
-export { fire, fire2 }
+export default fire
 
 /*
 // Import the functions you need from the SDKs you need
