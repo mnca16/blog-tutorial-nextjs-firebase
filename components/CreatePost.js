@@ -1,6 +1,6 @@
 //This component is meant to Write to Cloud Firestore (to the data base)
 import React, { useState } from "react"
-import { fire, fire2 } from "../config/fire-config.js"
+import fire from "../config/fire-config.js"
 import "firebase/firestore"
 
 const CreatePost = () => {
