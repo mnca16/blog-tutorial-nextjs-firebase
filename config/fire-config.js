@@ -25,23 +25,3 @@ const fire = firebase
 const fire2 = firebaseConfig
 
 export default fire
-
-/*
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyB6Lzu9K5FgXdpezT5e6ZIx9ib3qRhjKFo",
-  authDomain: "blog-app-tutorial-586a4.firebaseapp.com",
-  projectId: "blog-app-tutorial-586a4",
-  storageBucket: "blog-app-tutorial-586a4.appspot.com",
-  messagingSenderId: "804049462081",
-  appId: "1:804049462081:web:d870f80e901ab0c33977c0"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-*/
